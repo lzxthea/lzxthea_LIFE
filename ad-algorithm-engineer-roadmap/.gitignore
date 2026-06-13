@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# TensorBoard / 训练日志
+**/logs/
+**/runs/
+
+# 模型 checkpoint
+**/checkpoints/
+*.ckpt
+*.h5
+*.pt
+*.pth
+
+# Jupyter notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 系统
+.DS_Store
+Thumbs.db
